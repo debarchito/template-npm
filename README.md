@@ -1,8 +1,8 @@
 # template-npm
-**NOTE:** This repository uses `pnpm` over `npm`
+**NOTE:** This repository uses `pnpm` over `npm`.
 
 ## Overview
-This npm-package template is pre-configured with `Rollup`, `swc`, `TypeScript`, `Eslint` and `Prettier`
+This npm-package template is pre-configured with `Rollup`, `swc`, `TypeScript`, `Eslint` and `Prettier`.
 
 <br>
 
@@ -21,13 +21,13 @@ git clone https://github.com/debarchito/template-npm your-plugin-name
 cd your-plugin-name
 pnpm update
 ```
-Use `pnpm update` instead of `pnpm install` to install the latest version of the dependecies
+Use `pnpm update` instead of `pnpm install` to install the latest version of the dependecies.
 
 <br>
 
 ## Working
 
-**NOTE:** Compilation is done by `swc` and `TypeScript Compiler` or `tsc` is only used to generate *type-definitions*. It can also be used for *type-checking*
+**NOTE:** Compilation is done by `swc` and `TypeScript Compiler` or `tsc` is only used to generate *type-definitions*. It can also be used for *type-checking*. Also, don't forget to check [GUIDE.md](https://github.com/debarchito/template-npm/blob/main/GUIDE.md), which contains few tricks to avoid conflict between Rollup and TypeScript (and much more if needed in future).
 
 <br>
 

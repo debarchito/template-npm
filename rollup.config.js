@@ -20,8 +20,8 @@ export default [
       }),
       alias({
         entries: [
-          { find: /\.\/(.*)\.js$/, replacement: './$1.ts' },
-          { find: /\.\/(.*)$/, replacement: './$1.ts' }
+          { find: /\.\/(.*)\.js$/gm, replacement: './$1.ts' },
+          { find: /\.\/(.*)$/gm, replacement: './$1.ts' }
         ]
       }),
       {
@@ -55,8 +55,8 @@ export default [
       }),
       alias({
         entries: [
-          { find: /\.\/(.*)\.js$/, replacement: './$1.ts' },
-          { find: /\.\/(.*)$/, replacement: './$1.ts' }
+          { find: /\.\/(.*)\.js$/gm, replacement: './$1.ts' },
+          { find: /\.\/(.*)$/gm, replacement: './$1.ts' }
         ]
       })
     ],
